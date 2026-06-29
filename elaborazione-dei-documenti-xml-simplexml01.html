@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/it-php5-juillet-2011/elaborazione-di-documenti-xml-simplexml01.html">
+        <link rel="canonical" href="https://stahe.github.io/it-php5-juillet-2011/elaborazione-dei-documenti-xml-simplexml01.html">
       
       
-        <link rel="prev" href="calcolo-delle-imposte-esercizio-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html">
+        <link rel="prev" href="esercizio-impots-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html">
       
       
-        <link rel="next" href="calcolo-delle-imposte-esercizio-con-xml.html">
+        <link rel="next" href="esercizio-impots-con-xml.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>12. Elaborazione di documenti XML (simplexml_01) - Introduzione a PHP5 attraverso esempi</title>
+        <title>12. Elaborazione dei documenti XML (simplexml_01) - Introduzione a PHP5 attraverso esempi</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#12-elaborazione-di-documenti-xml-simplexml_01" class="md-skip">
+        <a href="#12-elaborazione-dei-documenti-xml-simplexml_01" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              12. Elaborazione di documenti XML (simplexml_01)
+              12. Elaborazione dei documenti XML (simplexml_01)
             
           </span>
         </div>
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="configurazione-di-un-ambiente-di-sviluppo.html" class="md-nav__link">
+      <a href="installazione-di-un-ambiente-di-lavoro.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Configurazione di un ambiente di sviluppo
+    2. Installazione di un ambiente di lavoro
   
 
     
@@ -384,14 +386,14 @@
   
   
     <li class="md-nav__item">
-      <a href="esercizio-pratico---calcolo-delle-imposte.html" class="md-nav__link">
+      <a href="esercizio-pratico---impots.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Esercizio pratico – Calcolo delle imposte
+    4. Esercizio pratico - IMPOTS
   
 
     
@@ -411,14 +413,14 @@
   
   
     <li class="md-nav__item">
-      <a href="oggetti.html" class="md-nav__link">
+      <a href="gli-oggetti.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Oggetti
+    5. Gli oggetti
   
 
     
@@ -438,14 +440,14 @@
   
   
     <li class="md-nav__item">
-      <a href="esercizio-applicativo---calcolo-delle-imposte-con-oggetti-impots03.html" class="md-nav__link">
+      <a href="esercizio-pratico---impots-con-oggetti-impots03.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Esercizio applicativo – Calcolo delle imposte con oggetti (impots_03)
+    6. Esercizio pratico - IMPOTS con oggetti (impots_03)
   
 
     
@@ -465,14 +467,14 @@
   
   
     <li class="md-nav__item">
-      <a href="utilizzo-del-dbms-mysql.html" class="md-nav__link">
+      <a href="utilizzo-di-sgbd-e-mysql.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. Utilizzo del DBMS MySQL
+    7. Utilizzo di SGBD e MySql
   
 
     
@@ -492,14 +494,14 @@
   
   
     <li class="md-nav__item">
-      <a href="esercizio-di-calcolo-delle-imposte-con-mysql.html" class="md-nav__link">
+      <a href="esercizio-impots-con-mysql.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    8. Esercizio di calcolo delle imposte con MySQL
+    8. Esercizio IMPOTS con MySQL
   
 
     
@@ -519,14 +521,14 @@
   
   
     <li class="md-nav__item">
-      <a href="funzioni-di-rete-php.html" class="md-nav__link">
+      <a href="le-funzioni-di-rete-di-php.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Funzioni di rete PHP
+    9. Le funzioni di rete di PHP
   
 
     
@@ -546,14 +548,14 @@
   
   
     <li class="md-nav__item">
-      <a href="server-php.html" class="md-nav__link">
+      <a href="server-in-php.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Server PHP
+    10. Server in PHP
   
 
     
@@ -573,14 +575,14 @@
   
   
     <li class="md-nav__item">
-      <a href="calcolo-delle-imposte-esercizio-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html" class="md-nav__link">
+      <a href="esercizio-impots-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Calcolo delle imposte: esercizio con un servizio web e un'architettura a tre livelli
+    11. Esercizio IMPOTS con un servizio WEB e un'architettura a tre livelli
   
 
     
@@ -609,14 +611,14 @@
         
       
       
-      <a href="elaborazione-di-documenti-xml-simplexml01.html" class="md-nav__link md-nav__link--active">
+      <a href="elaborazione-dei-documenti-xml-simplexml01.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Elaborazione di documenti XML (simplexml_01)
+    12. Elaborazione dei documenti XML (simplexml_01)
   
 
     
@@ -637,14 +639,14 @@
   
   
     <li class="md-nav__item">
-      <a href="calcolo-delle-imposte-esercizio-con-xml.html" class="md-nav__link">
+      <a href="esercizio-impots-con-xml.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Calcolo delle imposte: Esercizio con XML
+    13. Esercizio IMPOTS con XML
   
 
     
@@ -674,12 +676,12 @@
 
 
 
-<p><a id="refheading400021881943603"></a></p>
-<h1 id="12-elaborazione-di-documenti-xml-simplexml_01">12. <span style="color: #365f91">Elaborazione di documenti XML (simplexml_01)</span></h1>
-<p>Si consideri il seguente file [data.xml]:</p>
+<p><span id="refheading400021881943603" name="refheading400021881943603" class="odt-bookmark-anchor"></span></p>
+<h1 id="12-elaborazione-dei-documenti-xml-simplexml_01">12. <span style="color: #365f91">Elaborazione dei documenti XML (simplexml_01)</span></h1>
+<p>Consideriamo il seguente file [data.xml]:</p>
 <div class="odt-code-rich" data-linenums="false" style="counter-reset: odtline 0;"><pre><code class="language-xml">
 <span class="odt-code-line"><span class="odt-code-line-content">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">&lt;tribu&gt;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">  </span><span style="color:#800080">&lt;enseignant&gt;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">    </span><span style="color:#800080">&lt;personne</span><span style="font-style:italic;color:#008080"> </span><span style="color:#808000">sexe</span><span style="color:#800080">=&quot;</span><span style="color:#0000ff">M</span><span style="color:#800080">&quot;&gt;</span></span></span>
@@ -704,14 +706,14 @@
 <p>Analizziamo questo documento con il seguente script:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-php">
 <span class="odt-code-line"><span class="odt-code-line-content">&lt;?php</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// file XML to be processed</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// file XML da elaborare</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$FILE_NAME</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;data.xml&quot;</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// operation</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// elaborazione</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$xml</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">simplexml_load_file(</span><span style="color:#0000ff">$FILE_NAME</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">print_r(</span><span style="color:#0000ff">$xml</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">print_r(</span><span style="color:#0000ff">$xml</span><span style="color:#000000">-&gt;enseignant-&gt;personne[</span><span style="color:#008000">&#x27;sexe&#x27;</span><span style="color:#000000">]);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$nom</span>=<span style="color:#0000ff">$xml</span>-&gt;enseignant-&gt;personne-&gt;nom;</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$nom</span><span style="color:#000000">=</span><span style="color:#0000ff">$xml</span><span style="color:#000000">-&gt;enseignant-&gt;personne-&gt;nom;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">print</span><span style="color:#008080"> </span><span style="color:#008000">&quot;nom=</span><span style="color:#0000ff">$nom</span><span style="color:#008000">\n&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$sexe</span><span style="color:#000000">=</span><span style="color:#0000ff">$xml</span><span style="color:#000000">-&gt;enseignant-&gt;personne[</span><span style="color:#008000">&#x27;sexe&#x27;</span><span style="color:#000000">];</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">print</span><span style="color:#008080"> </span><span style="color:#008000">&quot;sexe=</span><span style="color:#0000ff">$sexe</span><span style="color:#008000">\n&quot;</span><span style="color:#000000">;</span></span></span>
@@ -721,15 +723,15 @@
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">print</span><span style="color:#008080"> </span><span style="color:#008000">&quot;isset=&quot;</span><span style="color:#000000">.</span><span style="font-weight:bold;color:#000000">isset</span><span style="color:#000000">(</span><span style="color:#0000ff">$xml</span><span style="color:#000000">-&gt;enseignant-&gt;personne-&gt;xx).</span><span style="color:#008000">&quot;\n&quot;</span><span style="color:#000000">;</span></span></span>
 </code></pre></div>
 
-<p><span style="color: #000000">Qui stiamo utilizzando un modulo PHP chiamato [simpleXML] che ci permette di elaborare documenti XML.</span></p>
+<p><span style="color: #000000">Qui utilizziamo un modulo PHP denominato [simpleXML] che consente di elaborare documenti XML.</span></p>
 <ul>
   <li>riga 6: caricamento del file XML
   </li>
   <li>riga 7: visualizzazione del documento XML
   </li>
-  <li>riga 8: visualizzazione del valore dell&#x27;attributo &#x27;sex&#x27; di un insegnante: <i>&lt;teacher&gt;&lt;person sex=&#x27;...&#x27;&gt;</i>
+  <li>riga 8: visualizzazione del valore dell&#x27;attributo &#x27;sexe&#x27; di un docente: <i>&lt;insegnante&gt;&lt;persona sesso=&#x27;...&#x27;&gt;</i>
   </li>
-  <li>riga 9: visualizzazione del valore del primo tag <i>&lt;teacher&gt;&lt;person&gt;&lt;name&gt;</i>
+  <li>riga 9: visualizzazione del valore del primo tag <i>&lt;enseignant&gt;&lt;personne&gt;&lt;nom&gt;</i>
   </li>
 </ul>
 
@@ -827,11 +829,11 @@
 <a id="__codelineno-0-46" name="__codelineno-0-46"></a>isset=
 </code></pre></div></td></tr></table></div>
 <ul>
-  <li>righe 1-37: il documento XML sotto forma di oggetto [simpleXML].
+  <li>righe 1-37: il documento XML sotto forma di un oggetto di tipo [simpleXML].
   </li>
 </ul>
 
-<p>Lo script precedente non ci mostra tutte le possibilità del modulo [simpleXML], ma è sufficiente per scrivere una versione finale dell&#x27;esercizio IMPOTS.</p>
+<p>Lo script precedente non ci mostra tutte le possibilità del modulo [simpleXML], ma è sufficiente per scrivere un&#x27;ultima versione dell&#x27;esercizio IMPOTS.</p>
 
 
 

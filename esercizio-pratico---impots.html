@@ -12,13 +12,13 @@
         <meta name="author" content="Serge Tahé">
       
       
-        <link rel="canonical" href="https://stahe.github.io/it-php5-juillet-2011/esercizio-pratico---calcolo-delle-imposte.html">
+        <link rel="canonical" href="https://stahe.github.io/it-php5-juillet-2011/esercizio-pratico---impots.html">
       
       
         <link rel="prev" href="le-basi-di-php.html">
       
       
-        <link rel="next" href="oggetti.html">
+        <link rel="next" href="gli-oggetti.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>4. Esercizio pratico – Calcolo delle imposte - Introduzione a PHP5 attraverso esempi</title>
+        <title>4. Esercizio pratico - IMPOTS - Introduzione a PHP5 attraverso esempi</title>
       
     
     
@@ -56,6 +56,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +94,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#4-esercizio-pratico-calcolo-delle-imposte" class="md-skip">
+        <a href="#4-esercizio-pratico-impots" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +130,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              4. Esercizio pratico – Calcolo delle imposte
+              4. Esercizio pratico - IMPOTS
             
           </span>
         </div>
@@ -330,14 +332,14 @@
   
   
     <li class="md-nav__item">
-      <a href="configurazione-di-un-ambiente-di-sviluppo.html" class="md-nav__link">
+      <a href="installazione-di-un-ambiente-di-lavoro.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Configurazione di un ambiente di sviluppo
+    2. Installazione di un ambiente di lavoro
   
 
     
@@ -400,7 +402,7 @@
   <span class="md-ellipsis">
     
   
-    4. Esercizio pratico – Calcolo delle imposte
+    4. Esercizio pratico - IMPOTS
   
 
     
@@ -411,14 +413,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="esercizio-pratico---calcolo-delle-imposte.html" class="md-nav__link md-nav__link--active">
+      <a href="esercizio-pratico---impots.html" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    4. Esercizio pratico – Calcolo delle imposte
+    4. Esercizio pratico - IMPOTS
   
 
     
@@ -455,10 +457,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#42-versione-con-array-impots_01" class="md-nav__link">
+  <a href="#42-versione-con-tabelle-impots_01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4.2. Versione con array (impots_01)
+        4.2. Versione con tabelle (impots_01)
       
     </span>
   </a>
@@ -491,14 +493,14 @@
   
   
     <li class="md-nav__item">
-      <a href="oggetti.html" class="md-nav__link">
+      <a href="gli-oggetti.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    5. Oggetti
+    5. Gli oggetti
   
 
     
@@ -518,14 +520,14 @@
   
   
     <li class="md-nav__item">
-      <a href="esercizio-applicativo---calcolo-delle-imposte-con-oggetti-impots03.html" class="md-nav__link">
+      <a href="esercizio-pratico---impots-con-oggetti-impots03.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    6. Esercizio applicativo – Calcolo delle imposte con oggetti (impots_03)
+    6. Esercizio pratico - IMPOTS con oggetti (impots_03)
   
 
     
@@ -545,14 +547,14 @@
   
   
     <li class="md-nav__item">
-      <a href="utilizzo-del-dbms-mysql.html" class="md-nav__link">
+      <a href="utilizzo-di-sgbd-e-mysql.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    7. Utilizzo del DBMS MySQL
+    7. Utilizzo di SGBD e MySql
   
 
     
@@ -572,14 +574,14 @@
   
   
     <li class="md-nav__item">
-      <a href="esercizio-di-calcolo-delle-imposte-con-mysql.html" class="md-nav__link">
+      <a href="esercizio-impots-con-mysql.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    8. Esercizio di calcolo delle imposte con MySQL
+    8. Esercizio IMPOTS con MySQL
   
 
     
@@ -599,14 +601,14 @@
   
   
     <li class="md-nav__item">
-      <a href="funzioni-di-rete-php.html" class="md-nav__link">
+      <a href="le-funzioni-di-rete-di-php.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    9. Funzioni di rete PHP
+    9. Le funzioni di rete di PHP
   
 
     
@@ -626,14 +628,14 @@
   
   
     <li class="md-nav__item">
-      <a href="server-php.html" class="md-nav__link">
+      <a href="server-in-php.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    10. Server PHP
+    10. Server in PHP
   
 
     
@@ -653,14 +655,14 @@
   
   
     <li class="md-nav__item">
-      <a href="calcolo-delle-imposte-esercizio-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html" class="md-nav__link">
+      <a href="esercizio-impots-con-un-servizio-web-e-unarchitettura-a-tre-livelli.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    11. Calcolo delle imposte: esercizio con un servizio web e un'architettura a tre livelli
+    11. Esercizio IMPOTS con un servizio WEB e un'architettura a tre livelli
   
 
     
@@ -680,14 +682,14 @@
   
   
     <li class="md-nav__item">
-      <a href="elaborazione-di-documenti-xml-simplexml01.html" class="md-nav__link">
+      <a href="elaborazione-dei-documenti-xml-simplexml01.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    12. Elaborazione di documenti XML (simplexml_01)
+    12. Elaborazione dei documenti XML (simplexml_01)
   
 
     
@@ -707,14 +709,14 @@
   
   
     <li class="md-nav__item">
-      <a href="calcolo-delle-imposte-esercizio-con-xml.html" class="md-nav__link">
+      <a href="esercizio-impots-con-xml.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    13. Calcolo delle imposte: Esercizio con XML
+    13. Esercizio IMPOTS con XML
   
 
     
@@ -744,125 +746,125 @@
 
 
 
-<p><a id="refheading398821881943603"></a></p>
-<h1 id="4-esercizio-pratico-calcolo-delle-imposte">4. <span style="color: #365f91">Esercizio pratico – Calcolo delle imposte</span></h1>
-<p><a id="refheading398841881943603"></a></p>
+<p><span id="refheading398821881943603" name="refheading398821881943603" class="odt-bookmark-anchor"></span></p>
+<h1 id="4-esercizio-pratico-impots">4. <span style="color: #365f91">Esercizio pratico - IMPOTS</span></h1>
+<p><span id="refheading398841881943603" name="refheading398841881943603" class="odt-bookmark-anchor"></span></p>
 <h2 id="41-il-problema">4.1. <span style="color: #4f81bd">Il problema</span></h2>
-<p>Il nostro obiettivo è scrivere un programma per calcolare l&#x27;imposta di un contribuente. Prenderemo in considerazione il caso semplificato di un contribuente che deve dichiarare solo il proprio stipendio:</p>
+<p>Si propone di scrivere un programma che consenta di calcolare l&#x27;imposta di un contribuente. Si considera il caso semplificato di un contribuente che abbia da dichiarare solo il proprio stipendio:</p>
 <ul>
-<li>Il numero di quote per il dipendente è calcolato <strong>come nbParts = nbEnfants / 2 + 1</strong> se è celibe, oppure <strong>nbEnfants / 2 + 2</strong> se è coniugato, dove <em>nbEnfants</em> è il numero di figli che ha.</li>
-<li>Calcoliamo il loro reddito imponibile <strong>R = 0,72 * S,</strong> dove S è il loro stipendio annuale</li>
-<li>Calcoliamo il loro coefficiente familiare <strong>Q = R / N</strong></li>
+<li>si calcola il numero di quote del dipendente <strong>nbParts = nbEnfants/2 + 1</strong> se non è sposato, <strong>nbEnfants/2+2</strong> se è sposato, dove <em>nbEnfants</em> è il numero dei suoi figli.</li>
+<li>si calcola il suo reddito imponibile <strong>R=0,72*S,</strong> dove S è il suo stipendio annuale</li>
+<li>si calcola il suo coefficiente familiare <strong>Q = R/N</strong></li>
 </ul>
-<p>Calcoliamo la loro imposta I sulla base dei seguenti dati</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">12620,0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">13.190</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,05</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">631</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">15.640</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,1</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">1.290,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">24.740</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,15</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">2.072,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">31.810</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,2</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">3.309,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">39.970</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,25</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">4.900</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">48.360</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,3</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">6.898,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">55.790</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,35</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">9.316,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">92.970</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,4</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">12.106</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">127.860</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,45</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">16.754,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">151.250</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,50</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">23.147,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">172.040</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,55</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">30.710</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">195.000</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,60</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">39.312</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">0,65</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><div style="margin:0 0 0.5em 0">49.062</div></td></tr></table>
+<p>si calcola la sua imposta I in base ai seguenti dati</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">12620,0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">13.190</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,05</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">631</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">15640</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,1</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">1290,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">24.740</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,15</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">2072,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">31810</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,2</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">3309,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">39.970</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,25</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">4900</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">48360</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,3</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">6898,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">55790</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,35</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">9316,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">92970</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,4</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">12106</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">127.860</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,45</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">16754,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">151250</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,50</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">23147,5</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">172.040</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,55</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">30710</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">195.000</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,60</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">39312</div></td></tr><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">0,65</div></td><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><div style="margin:0 0 0.5em 0">49062</div></td></tr></table>
 
-<p>Ogni riga ha 3 campi. Per calcolare l&#x27;imposta I, cerchiamo la prima riga in cui <em>QF &lt;= campo1</em>. Ad esempio, se QF = 30000, troveremo la riga </p>
+<p>Ogni riga ha 3 campi. Per calcolare l&#x27;imposta I, si cerca la prima riga in cui <em>QF&lt;=campo1</em>. Ad esempio, se QF=30000, si troverà la riga </p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>    24740        0.15        2072.5
 </code></pre></div>
-<p>L&#x27;imposta I è quindi pari a <strong>0,15*R - 2072,5*nbParts</strong>. Se QF è tale che la condizione <em>QF&lt;=field1</em> non è mai soddisfatta, vengono utilizzati i coefficienti dell&#x27;ultima riga. Qui:</p>
+<p>L&#x27;imposta I è quindi pari a <strong>0,15*R - 2072,5*nbParts</strong>. Se QF è tale che la relazione <em>QF&lt;=campo1</em> non è mai soddisfatta, allora vengono utilizzati i coefficienti dell’ultima riga. In questo caso:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>    0                0.65        49062
 </code></pre></div>
-<p>il che dà come risultato l&#x27;imposta I = 0,65*R – 49062*nbParts.</p>
-<p><a id="refheading398861881943603"></a>
-<a id="impots01"></a></p>
-<h2 id="42-versione-con-array-impots_01">4.2. <span style="color: #4f81bd">Versione con array (impots_01)</span></h2>
-<p>Presentiamo un programma iniziale in cui:</p>
+<p>il che dà l’imposta I=0,65*R – 49062*nbParts.</p>
+<p><span id="refheading398861881943603" name="refheading398861881943603" class="odt-bookmark-anchor"></span>
+<span id="impots01" name="impots01" class="odt-bookmark-anchor"></span></p>
+<h2 id="42-versione-con-tabelle-impots_01">4.2. <span style="color: #4f81bd">Versione con tabelle (impots_01)</span></h2>
+<p>Presentiamo un primo programma in cui:</p>
 <ul>
-<li>i dati necessari per il calcolo delle imposte sono contenuti in tre array (limits, coeffR, coeffN)</li>
-<li>i dati del contribuente (stato civile, figli, stipendio) si trovano in un primo file di testo</li>
-<li>i risultati del calcolo dell&#x27;imposta (stato civile, figli, stipendio, imposta) sono memorizzati in un secondo file di testo</li>
+<li>i dati necessari per il calcolo dell’imposta si trovano in tre tabelle (limiti, coeffR, coeffN)</li>
+<li>i dati dei contribuenti (stato civile, figli, stipendio) si trovano in un primo file di testo</li>
+<li>i risultati del calcolo dell’imposta (stato civile, figli, stipendio, imposta) sono memorizzati in un secondo file di testo</li>
 </ul>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-php">
 <span class="odt-code-line"><span class="odt-code-line-content">&lt;?php</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// definition of constants</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// definizione delle costanti</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$DATA</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;data.txt&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$RESULTATS</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;resultats.txt&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$limites</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#000080">12620</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">13190</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">15640</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">24740</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">31810</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">39970</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">48360</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">55790</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">92970</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">127860</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">151250</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">172040</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">195000</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$coeffR</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#000080">0</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.05</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.1</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.15</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.2</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.25</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.3</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.35</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.4</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.45</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.55</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.6</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0.65</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$coeffN</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#000080">0</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">631</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">1290.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">2072.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">3309.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">4900</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">6898.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">9316.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">12106</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">16754.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">23147.5</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">30710</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">39312</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">49062</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// reading data</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// lettura dei dati</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$data</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">fopen(</span><span style="color:#0000ff">$DATA</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#008000">&quot;r&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(!</span><span style="color:#0000ff">$data</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">print</span><span style="color:#008080"> </span><span style="color:#008000">&quot;Impossible d&#x27;ouvrir en lecture le fichier des données [</span><span style="color:#0000ff">$DATA</span><span style="color:#008000">]\n&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">exit</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// open results file</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// apertura del file dei risultati</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$résultats</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">fopen(</span><span style="color:#0000ff">$RESULTATS</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#008000">&quot;w&quot;</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(!</span><span style="color:#0000ff">$résultats</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">print</span><span style="color:#008080"> </span><span style="color:#008000">&quot;Impossible de créer le fichier des résultats [</span><span style="color:#0000ff">$RESULTATS</span><span style="color:#008000">]\n&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">exit</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// use the current line of the data file</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// si elabora la riga corrente del file dei dati</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">while</span><span style="color:#008080"> </span><span style="color:#000000">(</span><span style="color:#0000ff">$ligne</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">fgets(</span><span style="color:#0000ff">$data</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">100</span><span style="color:#000000">))</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// remove any end-of-line marker</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si rimuove l&#x27;eventuale carattere di fine riga</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$ligne</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLineChar(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// we retrieve the 3 fields married,children,salary which form $ligne</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si recuperano i 3 campi «coniuge», «figli» e «stipendio» che formano $ligne</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">list</span><span style="color:#000000">(</span><span style="color:#0000ff">$marié</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$enfants</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$salaire</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">explode(</span><span style="color:#008000">&quot;,&quot;</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$ligne</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// tax calculation</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si calcola l’imposta</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$impôt</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">calculImpots(</span><span style="color:#0000ff">$marié</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$enfants</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$salaire</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// enter the result in the results file</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si inserisce il risultato nel file dei risultati</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#000000">fputs(</span><span style="color:#0000ff">$résultats</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#008000">&quot;</span><span style="color:#0000ff">$marié</span><span style="color:#008000">:</span><span style="color:#0000ff">$enfants</span><span style="color:#008000">:</span><span style="color:#0000ff">$salaire</span><span style="color:#008000">:</span><span style="color:#0000ff">$impôt</span><span style="color:#008000">\n&quot;</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// next taxpayer</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// contribuente successivo</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// close files</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// si chiudono i file</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">fclose(</span><span style="color:#0000ff">$data</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#000000">fclose(</span><span style="color:#0000ff">$résultats</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// fine</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">exit</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// --------------------------------------------------------------------------</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">function</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLinechar(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// delete the end-of-line mark from $ligne if it exists</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$L</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">strlen(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">);</span><span style="color:#008080">  </span><span style="font-style:italic;color:#808080">// // line length</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si elimina il carattere di fine riga da $ligne, se presente</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  $L = strlen($ligne);  // lunghezza riga</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">while</span><span style="color:#008080"> </span><span style="color:#000000">(substr(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$L</span><span style="color:#008080"> </span><span style="color:#000000">-</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">==</span><span style="color:#008080"> </span><span style="color:#008000">&quot;\n&quot;</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">or</span><span style="color:#008080"> </span><span style="color:#000000">substr(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$L</span><span style="color:#008080"> </span><span style="color:#000000">-</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">==</span><span style="color:#008080"> </span><span style="color:#008000">&quot;\r&quot;</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$ligne</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">substr(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000080">0</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$L</span><span style="color:#008080"> </span><span style="color:#000000">-</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$L</span><span style="color:#000000">--;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#000000">}</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// end</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// fine</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">return</span><span style="color:#000000">(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// --------------------------------------------------------------------------</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">function</span><span style="color:#008080"> </span><span style="color:#000000">calculImpots(</span><span style="color:#0000ff">$marié</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$enfants</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$salaire</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $marié : yes, no</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $enfants : number of children</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $salaire: annual salary</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $limites, $coeffR, $coeffN: tax calculation data tables</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// number of shares</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $marié: sì, no</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $enfants: numero di figli</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $salaire: stipendio annuo</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $limites, $coeffR, $coeffN: tabelle dei dati che consentono il calcolo dell&#x27;imposta</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// numero di quote</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$marié</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">strtolower(</span><span style="color:#0000ff">$marié</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(</span><span style="color:#0000ff">$marié</span><span style="color:#008080"> </span><span style="color:#000000">==</span><span style="color:#008080"> </span><span style="color:#008000">&quot;oui&quot;</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$nbParts</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#0000ff">$enfants</span><span style="color:#008080"> </span><span style="color:#000000">/</span><span style="color:#008080"> </span><span style="color:#000080">2</span><span style="color:#008080"> </span><span style="color:#000000">+</span><span style="color:#008080"> </span><span style="color:#000080">2</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">else</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$nbParts</span><span style="color:#000000">=</span><span style="color:#0000ff">$enfants</span><span style="color:#008080"> </span><span style="color:#000000">/</span><span style="color:#008080"> </span><span style="color:#000080">2</span><span style="color:#008080"> </span><span style="color:#000000">+</span><span style="color:#008080"> </span><span style="color:#000080">1</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// an additional 1/2 share if at least 3 children</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// una quota aggiuntiva di 1/2 se ci sono almeno 3 figli</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(</span><span style="color:#0000ff">$enfants</span><span style="color:#008080"> </span><span style="color:#000000">&gt;=</span><span style="color:#008080"> </span><span style="color:#000080">3</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$nbParts</span><span style="color:#000000">+=</span><span style="color:#000080">0.5</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// taxable income</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// reddito imponibile</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$revenuImposable</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000080">0.72</span><span style="color:#008080"> </span><span style="color:#000000">*</span><span style="color:#008080"> </span><span style="color:#0000ff">$salaire</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// family quotient</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// quoziente familiare</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$quotient</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#0000ff">$revenuImposable</span><span style="color:#008080"> </span><span style="color:#000000">/</span><span style="color:#008080"> </span><span style="color:#0000ff">$nbParts</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// is set at the end of the limit table to stop the following loop</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// viene inserito alla fine della tabella dei limiti per interrompere il ciclo successivo</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#000000">array_push(</span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$quotient</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// tAX CALCULATION</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// calcolo dell’imposta</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$i</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000080">0</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">while</span><span style="color:#008080"> </span><span style="color:#000000">(</span><span style="color:#0000ff">$quotient</span><span style="color:#008080"> </span><span style="color:#000000">&gt;</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">[</span><span style="color:#0000ff">$i</span><span style="color:#000000">])</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="color:#0000ff">$i</span><span style="color:#000000">++;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// because $quotient has been placed at the end of the $limites array, the previous loop</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// cannot exceed the table $limites</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// now we can calculate the tax</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// poiché $quotient è stato inserito alla fine della tabella $limites, il ciclo precedente</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// non può andare oltre i limiti della tabella $limites</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// ora è possibile calcolare l’imposta</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">return</span><span style="color:#008080"> </span><span style="color:#000000">floor(</span><span style="color:#0000ff">$revenuImposable</span><span style="color:#008080"> </span><span style="color:#000000">*</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">[</span><span style="color:#0000ff">$i</span><span style="color:#000000">]</span><span style="color:#008080"> </span><span style="color:#000000">-</span><span style="color:#008080"> </span><span style="color:#0000ff">$nbParts</span><span style="color:#008080"> </span><span style="color:#000000">*</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">[</span><span style="color:#0000ff">$i</span><span style="color:#000000">]);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">?&gt;</span></span>
 </code></pre></div>
 
-<p>Il file di dati <em>data.txt</em> (stato civile, figli, stipendio):</p>
+<p>Il file dei dati <em>data.txt</em>  (stato civile, figli, stipendio):</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>oui,2,200000
 <a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>non,2,200000
 <a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>oui,3,200000
@@ -870,7 +872,7 @@
 <a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>oui,5,50000
 <a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>non,0,3000000
 </code></pre></div>
-<p>I file <em>results.txt</em> (stato civile, figli, stipendio, imposte) relativi ai risultati ottenuti:</p>
+<p>I file <em>résultats.txt</em> (stato civile, figli, stipendio, imposte) dei risultati ottenuti:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>oui:2:200000:22504
 <a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>non:2:200000:33388
 <a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>oui:3:200000:16400
@@ -880,87 +882,87 @@
 </code></pre></div>
 <p><strong>Commenti</strong></p>
 <ul>
-<li>riga 4: il nome del file di testo contenente i dati del contribuente (stato civile, figli, stipendio)</li>
-<li>riga 5: il nome del file di testo contenente i risultati (stato civile, figli, stipendio, imposta) del calcolo fiscale</li>
-<li>Righe 6–8: le tre tabelle di dati utilizzate per calcolare l&#x27;imposta</li>
-<li>righe 11-15: aprono il file dei dati del contribuente per la lettura</li>
-<li>righe 18–22: aprono il file dei risultati per la scrittura</li>
-<li>riga 25: ciclo per leggere le righe (stato civile, figli, stipendio) dal file del contribuente</li>
+<li>riga 4: il nome del file di testo contenente i dati dei contribuenti (stato civile, figli, stipendio)</li>
+<li>riga 5: il nome del file di testo contenente i risultati (stato civile, figli, stipendio, imposta) del calcolo dell&#x27;imposta</li>
+<li>righe 6-8: le tre tabelle di dati che consentono il calcolo dell’imposta</li>
+<li>righe 11-15: apertura in lettura del file dei dati dei contribuenti</li>
+<li>righe 18-22: apertura in scrittura del file dei risultati</li>
+<li>riga 25: ciclo di lettura delle righe (stato civile, figli, stipendio) del file dei contribuenti</li>
 <li>riga 27: il carattere di fine riga viene rimosso</li>
-<li>riga 29: vengono recuperati i componenti (stato civile, figli, stipendio) della riga</li>
-<li>riga 31: si calcola l&#x27;imposta</li>
+<li>riga 29: vengono recuperate le componenti (coniuge, figli, stipendio) della riga</li>
+<li>riga 31: viene calcolata l&#x27;imposta</li>
 <li>riga 33: l&#x27;imposta viene memorizzata nel file dei risultati</li>
-<li>righe 37-38: una volta che il file dei contribuenti è stato completamente elaborato, i file vengono chiusi</li>
-<li>riga 44: la funzione che rimuove il carattere di fine riga da una riga $line. Il carattere di fine riga è la stringa &quot;\r\n&quot; sui sistemi Windows, &quot;\n&quot; sui sistemi Unix. Il risultato è la stringa di input senza il carattere di fine riga.</li>
-<li>righe 47-48: <em>substr($string, $start, $size)</em> restituisce la sottostringa di <em>$string</em> che inizia dal carattere <em>$start</em> e contiene al massimo <em>$size</em> caratteri.</li>
-<li>riga 63: <em>strtolower($string)</em> converte <em>$string</em> in minuscolo</li>
-<li>riga 76: <em>array_push($array, $element)</em> aggiunge <em>$element</em> alla fine di <em>$array</em>. Si noti che l&#x27;array <em>$limits</em> viene passato per valore alla funzione <em>calculateTax (</em>riga 56<em>)</em>. L&#x27;aggiunta di un elemento viene quindi eseguita su una copia del parametro effettivo, che rimane invariato.</li>
+<li>righe 37-38: una volta elaborato completamente il file dei contribuenti, i file vengono chiusi</li>
+<li>riga 44: la funzione che rimuove il carattere di fine riga da una riga $ligne. Il carattere di fine riga è la stringa &quot;\r\n&quot; sui sistemi Windows, &quot;\n&quot; sui sistemi Unix. Il risultato è la stringa di input senza il carattere di fine riga.</li>
+<li>righe 47-48: <em>substr($chaîne,$début,$taille)</em> è la sottostringa di $chaîne che inizia dal carattere $début e contiene al massimo $taille caratteri.</li>
+<li>riga 63: <em>strtolower($chaîne)</em> restituisce $chaîne in minuscolo</li>
+<li>riga 76: <em>array_push($tableau,$élément)</em> aggiunge $élément alla fine dell&#x27;array $tableau. Si noti che la tabella $limites è stata passata per valore alla funzione <em>calculerImpot (</em>riga <em>56: )</em>). L’aggiunta di questo elemento avviene quindi sulla copia del parametro effettivo, che rimane inalterato.</li>
 <li>riga 84: la funzione <em>floor($x)</em> restituisce il valore intero immediatamente inferiore a $x.</li>
 </ul>
-<p><a id="refheading398881881943603"></a>
-<a id="impots02"></a></p>
+<p><span id="refheading398881881943603" name="refheading398881881943603" class="odt-bookmark-anchor"></span>
+<span id="impots02" name="impots02" class="odt-bookmark-anchor"></span></p>
 <h2 id="43-versione-con-file-di-testo-impots_02">4.3. <span style="color: #4f81bd">Versione con file di testo (impots_02)</span></h2>
-<p>Questa nuova versione differisce dalla precedente solo per il fatto che i dati ($limites, $coeffR, $coeffN) necessari per calcolare l&#x27;imposta si trovano ora in un file di testo nel seguente formato:</p>
+<p>Questa nuova versione differisce dalla precedente solo per il fatto che i dati ($limites, $coeffR, $coeffN) necessari per il calcolo dell’imposta si trovano ora in un file di testo nella forma seguente:</p>
 <p>File <em>impots.txt</em>:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>12620:13190:15640:24740:31810:39970:48360:55790:92970:127860:151250:172040:195000:0
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>0:0.05:0.1:0.15:0.2:0.25:0.3:0.35:0.4:0.45:0.5:0.55:0.6:0.65
 <a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>0:631:1290.5:2072.5:3309.5:4900:6898.5:9316.5:12106:16754.5:23147.5:30710:39312:49062
 </code></pre></div>
-<p>La nuova versione legge semplicemente i dati dal file [impots.txt] e li inserisce in tre array <em>($limites, $coeffR, $coeffN)</em>. Questo ci riporta al caso precedente. Presentiamo solo le modifiche:</p>
+<p>La nuova versione si limita a leggere i dati dal file [impots.txt] per inserirli in tre tabelle <em>($limites, $coeffR, $coeffN)</em>. Ci si ritrova quindi nella situazione precedente. Riportiamo solo le modifiche:</p>
 <div class="odt-code-rich" data-linenums="true" style="counter-reset: odtline 0;"><pre><code class="language-php">
 <span class="odt-code-line"><span class="odt-code-line-content">&lt;?php</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// definition of constants</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// definizione delle costanti</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$DATA</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;data.txt&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$RESULTATS</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;resultats.txt&quot;</span><span style="color:#000000">;</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#0000ff">$IMPOTS</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#008000">&quot;impots.txt&quot;</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// the data required to calculate the tax has been placed in the $IMPOTS file</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// one line per table in the form</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// i dati necessari per il calcolo dell&#x27;imposta sono stati inseriti nel file $IMPOTS</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// con una riga per ogni tabella nella forma</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// val1:val2:val3,...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">list</span><span style="color:#000000">(</span><span style="color:#0000ff">$erreur</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">getTables(</span><span style="color:#0000ff">$IMPOTS</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// was there a mistake?</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// Si è verificato un errore?</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">if ($erreur) <span style="color:#ff6600">{</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  print &quot;$erreur\n&quot;;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">  exit;</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}//if</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// reading user data</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// lettura dei dati utente</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">// end</span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">// fine</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">exit</span><span style="color:#000000">;</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// --------------------------------------------------------------------------</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">function</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLinechar(</span><span style="color:#0000ff">$ligne</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// delete the end-of-line mark from $ligne if it exists</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// si rimuove il carattere di fine riga da $ligne se presente</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">...</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// --------------------------------------------------------------------------</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">function</span><span style="color:#008080"> </span><span style="color:#000000">calculImpots(</span><span style="color:#0000ff">$marié</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$enfants</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$salaire</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $marié : yes, no</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $enfants : number of children</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $salaire: annual salary</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $limites, $coeffR, $coeffN: tax calculation data tables</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $marié: sì, no</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $enfants: numero di figli</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $salaire: stipendio annuo</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $limites, $coeffR, $coeffN: tabelle dei dati che consentono il calcolo dell&#x27;imposta</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#000000">...</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
-<span class="odt-code-line"><span class="odt-code-line-content"> </span></span>
+<span class="odt-code-line"><span class="odt-code-line-content"></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">// --------------------------------------------------------------------------</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="font-weight:bold;color:#000000">function</span><span style="color:#008080"> </span><span style="color:#000000">getTables(</span><span style="color:#0000ff">$IMPOTS</span><span style="color:#000000">)</span><span style="color:#008080"> </span><span style="color:#000000">{</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $IMPOTS: name of the file containing data from tables $limites, $coeffR, $coeffN</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// does the $IMPOTS file exist?</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// $IMPOTS: il nome del file contenente i dati delle tabelle $limites, $coeffR, $coeffN</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// Il file $IMPOTS esiste?</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(!file_exists(</span><span style="color:#0000ff">$IMPOTS</span><span style="color:#000000">))</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="font-weight:bold;color:#000000">return</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#008000">&quot;Le fichier </span><span style="color:#0000ff">$IMPOTS</span><span style="color:#008000"> n&#x27;existe pas&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// file block playback</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// lettura in blocco del file</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$tables</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">file(</span><span style="color:#0000ff">$IMPOTS</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">if</span><span style="color:#008080"> </span><span style="color:#000000">(!</span><span style="color:#0000ff">$tables</span><span style="color:#000000">)</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">    </span><span style="font-weight:bold;color:#000000">return</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#008000">&quot;Erreur lors de l&#x27;exploitation du fichier </span><span style="color:#0000ff">$IMPOTS</span><span style="color:#008000">&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">,</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">);</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// create the 3 tables - assume the rows are syntactically correct</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// creazione delle 3 tabelle - si presume che le righe siano sintatticamente corrette</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$limites</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">explode(</span><span style="color:#008000">&quot;:&quot;</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLineChar(</span><span style="color:#0000ff">$tables</span><span style="color:#000000">[</span><span style="color:#000080">0</span><span style="color:#000000">]));</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$coeffR</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">explode(</span><span style="color:#008000">&quot;:&quot;</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLineChar(</span><span style="color:#0000ff">$tables</span><span style="color:#000000">[</span><span style="color:#000080">1</span><span style="color:#000000">]));</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="color:#0000ff">$coeffN</span><span style="color:#008080"> </span><span style="color:#000000">=</span><span style="color:#008080"> </span><span style="color:#000000">explode(</span><span style="color:#008000">&quot;:&quot;</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#000000">cutNewLineChar(</span><span style="color:#0000ff">$tables</span><span style="color:#000000">[</span><span style="color:#000080">2</span><span style="color:#000000">]));</span></span></span>
-<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// end</span></span></span>
+<span class="odt-code-line"><span class="odt-code-line-content">  <span style="color:#008080">// fine</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content"><span style="color:#008080">  </span><span style="font-weight:bold;color:#000000">return</span><span style="color:#008080"> </span><span style="font-weight:bold;color:#000000">array</span><span style="color:#000000">(</span><span style="color:#008000">&quot;&quot;</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$limites</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffR</span><span style="color:#000000">,</span><span style="color:#008080"> </span><span style="color:#0000ff">$coeffN</span><span style="color:#000000">);</span></span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">}</span></span>
 <span class="odt-code-line"><span class="odt-code-line-content">?&gt;</span></span>
@@ -968,13 +970,13 @@
 
 <p><strong>Commenti</strong></p>
 <ul>
-<li>Riga 11: La funzione <em>getTables($IMPOTS)</em> elabora il file di testo <em>$IMPOTS</em> per estrarre le tre tabelle (<em>$limites, $coeffR, $coeffN</em>). Il risultato restituito è (<em>$error</em>, <em>$limites, $coeffR, $coeffN</em>), dove <em>$error</em> è un messaggio di errore; è vuoto se non si è verificato alcun errore.</li>
-<li>Riga 40: La funzione <em>getTables($IMPOTS)</em>.</li>
-<li>Riga 43: la funzione <em>files_exists(filename)</em> restituisce il valore booleano <em>true</em> se il file <em>filename</em> esiste, e <em>false</em> in caso contrario.</li>
-<li>Riga 46: la funzione <em>file(filename)</em> legge l&#x27;intero file di testo <em>filename</em>. Restituisce un array in cui ogni elemento è una riga del file di testo. Poiché il file <em>impots.txt</em> contiene tre righe di testo, la funzione restituirà un array con tre elementi.</li>
-<li>Righe 50–52: utilizzare le tre righe recuperate per creare i tre array (<em>$limits, $coeffR, $coeffN</em>)</li>
+<li>riga 11: la funzione <em>getTables($IMPOTS)</em> utilizza il file di testo $IMPOTS per estrarne le tre tabelle (<em>$limites, $coeffR, $coeffN</em>). Il risultato restituito è ($erreur, <em>$limites, $coeffR, $coeffN</em>), dove $erreur è un messaggio di errore, vuoto se non si è verificato alcun errore.</li>
+<li>riga 40: la funzione <em>getTables($IMPOTS)</em>.</li>
+<li>riga 43: la funzione <em>files_exists(nom_fichier)</em> restituisce il valore booleano <em>true</em> se il file <em>nom_fichier</em> esiste, altrimenti il valore booleano <em>false</em>.</li>
+<li>riga 46: la funzione <em>file(nom_fichier)</em> legge l&#x27;intero file di testo <em>nom_fichier</em>. Restituisce un array in cui ogni elemento corrisponde a una riga del file di testo. Poiché in questo caso il file <em>impots.txt</em> contiene tre righe di testo, la funzione restituirà un array composto da tre elementi.</li>
+<li>righe 50-52: utilizzo delle tre righe recuperate per creare i tre array (<em>$limites, $coeffR, $coeffN</em>)</li>
 </ul>
-<p>I risultati ottenuti sono gli stessi di quelli ottenuti nella versione precedente.</p>
+<p>I risultati ottenuti sono gli stessi di quelli della versione precedente.</p>
 
 
 
